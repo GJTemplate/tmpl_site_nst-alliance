@@ -1,0 +1,316 @@
+.form-control {
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,0.6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+textarea.form-control {
+  height: auto;
+}
+body {
+  color: #949494;
+  background-color: #ffffff;
+}
+a {
+  color: #61bc1f;
+}
+a:hover {
+  color: #4a9018;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #61bc1f;
+}
+#offcanvas-toggler >i {
+  color: #02402f;
+}
+#offcanvas-toggler >i:hover {
+  color: #61bc1f;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #53a21b;
+  background-color: #61bc1f;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #3f7a14;
+  background-color: #4a9018;
+}
+ul.social-icons >li a:hover {
+  color: #61bc1f;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #949494;
+}
+.sp-module ul >li >a:hover {
+  color: #61bc1f;
+}
+.sp-module .latestnews >div >a {
+  color: #949494;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #61bc1f;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #61bc1f;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #61bc1f;
+}
+.search .btn-toolbar button {
+  background: #61bc1f;
+}
+.post-format {
+  background: #61bc1f;
+}
+.voting-symbol span.star.active:before {
+  color: #61bc1f;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #4a9018;
+}
+.entry-link,
+.entry-quote {
+  background: #61bc1f;
+}
+blockquote {
+  border-color: #61bc1f;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #61bc1f;
+}
+.sp-comingsoon body {
+  background-color: #61bc1f;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #949494;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #949494;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #61bc1f;
+  background-color: #61bc1f;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #61bc1f;
+  background-color: #61bc1f;
+}
+body {
+  background-color: #ffffff;
+}
+.tags a.label,
+.helix-social-share .helix-social-share-icon ul li div a,
+.article-details-wrap .article-info > dd,
+.article-details-wrap .article-info > dd a {
+  color: #949494;
+}
+.tags a.label:hover,
+.tags a.label:focus {
+  background-color: #949494;
+}
+.btn.btn-link,
+.sppb-btn.btn-link,
+.btn.sppb-btn-link,
+.sppb-btn.sppb-btn-link,
+#sp-header .social-icons li a:hover,
+#sp-header .social-icons li a:focus,
+.sppb-slider-fullwidth-wrapper .sppb-fw-slider-button-wrapper a,
+.sppb-modal-selector.sppb-magnific-popup i,
+.sppb-addon-animated-number .sppb-animated-number,
+.rhino-home-news .sppb-addon-article h3 a:hover,
+.rhino-home-news .sppb-addon-article h3 a:focus,
+.rhino-home-news .sppb-addon-article .sppb-article-meta span,
+.white-header #offcanvas-toggler > i:hover,
+.white-header #sp-header .social-icons li a:hover,
+.white-header #sp-header .social-icons li a:focus,
+.core-service-section .sppb-addon-feature:hover .sppb-icon-container i,
+.home-two-portfolio-section .sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay .sp-vertical-middle .sp-simpleportfolio-title a:hover,
+.home-two-portfolio-section .sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay .sp-vertical-middle .sp-simpleportfolio-tags,
+.home4-feature-section .sppb-addon-feature .sppb-icon .sppb-icon-container i,
+.rihno-testimonial-section .sppb-icon i,
+.sppb-addon-testimonial .sppb-media .sppb-media-body blockquote footer,
+#sp-bottom .sppb-addon-social-media .social-media-text-wrap a:hover,
+#sp-bottom .sppb-addon-social-media .social-media-text-wrap a:focus,
+.service-page2-feature div.sppb-addon-feature .sppb-icon .sppb-icon-container i,
+.about-us-who-we-are .sppb-addon-text-block .sppb-addon-title span,
+.rhino-team-top-section .sppb-addon-text-block .sppb-addon-title,
+.com-spsimpleportfolio .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-items .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-details .sp-simpleportfolio-title a:hover,
+.com-spsimpleportfolio .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-items .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-details .sp-simpleportfolio-title a:focus,
+.sp-simpleportfolio.sp-simpleportfolio-view-item .sp-simpleportfolio-description .sp-simpleportfolio-info .sp-simpleportfolio-tags,
+.items-leading article h2 a:hover,
+.article-info > dd,
+.helix-social-share .helix-social-share-icon ul li div a:hover,
+.helix-social-share .helix-social-share-icon ul li div a:focus,
+div.pagination ul.pagination li a.last:hover,
+.pagination-wrapper ul.pagination li a.last:hover,
+div.pagination ul.pagination li a.first:hover,
+.pagination-wrapper ul.pagination li a.first:hover,
+div.pagination ul.pagination li a.last:focus,
+.pagination-wrapper ul.pagination li a.last:focus,
+div.pagination ul.pagination li a.first:focus,
+.pagination-wrapper ul.pagination li a.first:focus,
+.article-details-wrap .article-info > dd a:hover,
+.article-details-wrap .article-info > dd a:focus,
+.article-details-wrap .article-info > dd i,
+.top-search-input-wrap .search-suggested-tag ul li a.active,
+.btn.btn-default,
+.btn.sppb-btn-default,
+.sppb-btn.btn-default,
+.sppb-btn.sppb-btn-default,
+.com-spsimpleportfolio .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-items .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-details .sp-simpleportfolio-tags {
+  color: #61bc1f;
+}
+.btn.btn-link:hover,
+.sppb-btn.btn-link:hover,
+.btn.sppb-btn-link:hover,
+.sppb-btn.sppb-btn-link:hover,
+.btn.btn-link:focus,
+.sppb-btn.btn-link:focus,
+.btn.sppb-btn-link:focus,
+.sppb-btn.sppb-btn-link:focus,
+#sp-header .social-icons li a,
+.sp-megamenu-parent > li > a,
+.sp-megamenu-parent > li > span {
+  color: #02402f;
+}
+.btn.btn-success,
+.sppb-btn.btn-success,
+.btn.sppb-btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-default:hover,
+.sppb-btn.btn-default:hover,
+.btn.sppb-btn-default:hover,
+.sppb-btn.sppb-btn-default:hover,
+.icon-top-wrapper i.search-open-icon:hover,
+.top-search-input-wrap .search-upper-part,
+.sppb-slider-fullwidth-wrapper .owl-carousel .owl-controls .owl-dots .owl-dot.active span,
+.sppb-slider-fullwidth-wrapper .sppb-fw-slider-button-wrapper a:hover,
+.major-color-bg,
+.sppb-modal-selector.sppb-magnific-popup,
+.rhino-home-news .sppb-addon-article:hover,
+.white-header .icon-top-wrapper i.search-open-icon:hover,
+.home-two-portfolio-section .sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay .sp-vertical-middle .sp-simpleportfolio-title i:hover,
+.sppb-addon-tab .sppb-tab .sppb-nav-tabs li.active a,
+.rhino-skill-section .sppb-progress-bar-wrap .sppb-progress .sppb-progress-bar-primary,
+body.com-spsimpleportfolio:not(.portfolio-v2) .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-item:hover .sp-simpleportfolio-content-wrap .sp-simpleportfolio-details .sp-simpleportfolio-title i,
+body.com-spsimpleportfolio:not(.portfolio-v2) .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-item:focus .sp-simpleportfolio-content-wrap .sp-simpleportfolio-details .sp-simpleportfolio-title i,
+.sp-simpleportfolio.sp-simpleportfolio-view-item .sp-simpleportfolio-description .sp-simpleportfolio-info i,
+.items-row article.item:hover .article-info-wrap,
+div.pagination ul.pagination li.active a,
+.pagination-wrapper ul.pagination li.active a,
+.article-details-wrap .sppb-carousel .sppb-carousel-arrow i:hover,
+.article-details-wrap .sppb-carousel .sppb-carousel-arrow i:focus,
+.top-search-input-wrap .search-upper-part,
+.home-two-portfolio-section .sp-simpleportfolio .sp-simpleportfolio-item:hover .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay .sp-vertical-middle .sp-simpleportfolio-title:before,
+.service-page-feature .sppb-addon-feature:hover,
+.com-spsimpleportfolio .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-items .sp-simpleportfolio-item:hover .sp-simpleportfolio-details .sp-simpleportfolio-title::before,
+.sp-simpleportfolio.sp-simpleportfolio-view-item .sp-simpleportfolio-description .sp-simpleportfolio-info:before {
+  background: #61bc1f;
+}
+.major-color-bg2,
+.btn.btn-primary,
+.sppb-btn.btn-primary,
+.btn.sppb-btn-primary,
+.sppb-btn.sppb-btn-primary,
+.btn.btn-success:hover,
+.sppb-btn.btn-success:hover,
+.btn.sppb-btn-success:hover,
+.sppb-btn.sppb-btn-success:hover,
+.btn.btn-success:focus,
+.sppb-btn.btn-success:focus,
+.btn.sppb-btn-success:focus,
+.sppb-btn.sppb-btn-success:focus,
+.rhino-skill-section .sppb-progress-bar-wrap .sppb-progress .sppb-progress-bar-success {
+  background: #41972c;
+}
+.major-color-bg3,
+.rhino-skill-section .sppb-progress-bar-wrap .sppb-progress .sppb-progress-bar-info {
+  background: #066844;
+}
+.major-color-bg4,
+.top-search-input-wrap .search-bottom-part,
+.icon-top-wrapper i.search-open-icon,
+#sp-bottom,
+#sp-footer,
+.rhino-skill-section .sppb-progress-bar-wrap .sppb-progress .sppb-progress-bar-warning,
+.top-search-input-wrap .search-bottom-part,
+.sppb-slider-fullwidth-wrapper {
+  background: #02402f;
+}
+.sp-simpleportfolio .sp-simpleportfolio-item .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-overlay,
+.sppb-addon-persion div.sppb-person-image .sppb-person-info-wrap,
+body.portfolio-v2.com-spsimpleportfolio .sp-simpleportfolio.sp-simpleportfolio-view-items .sp-simpleportfolio-item .sp-simpleportfolio-content-wrap .sp-simpleportfolio-img-wrap:after {
+  background: rgba(97,188,31,0.9);
+}
+.white-header #sp-header.menu-fixed {
+  background: rgba(2,64,47,0.9);
+}
+.major-color-bg5 {
+  background: #012f22;
+}
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group textarea:focus,
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group input:focus {
+  border-color: #61bc1f;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item > a,
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item span,
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner .sp-module .latestnews div a,
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner .sp-module .tagspopular ul li a {
+  color: #141414;
+}
+.sp-page-title {
+  background: url(../../images/preset3-page-title-bg.jpg) no-repeat scroll center center / cover;
+}
+.sp-page-title h2:before {
+  background: url(../../images/preset3-title-half-img.png) no-repeat scroll center center / cover;
+}
